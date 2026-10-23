@@ -1,0 +1,10 @@
+2026-10-21T22:01:14Z sshd[1841]: Accepted publickey for mlopez from 10.20.4.18 port 51220
+2026-10-21T22:14:02Z sshd[1910]: Accepted password for jruiz from 10.20.4.23 port 51291
+2026-10-21T22:14:08Z sudo[1918]: jruiz : TTY=pts/1 ; COMMAND=/usr/bin/cat /var/log/app.log
+2026-10-21T23:47:51Z sshd[2207]: Failed password for invalid user backup from 185.77.12.90 port 40911
+2026-10-21T23:48:03Z sshd[2209]: Failed password for invalid user backup from 185.77.12.90 port 40912
+2026-10-21T23:48:19Z sshd[2214]: Accepted password for svc-report from 185.77.12.90 port 40918
+2026-10-21T23:49:01Z sudo[2220]: svc-report : TTY=pts/2 ; COMMAND=/usr/bin/tar -czf /tmp/report.tgz /srv/reports
+2026-10-21T23:51:37Z sshd[2251]: session closed for user svc-report
+2026-10-22T00:02:44Z sshd[2310]: Accepted publickey for mlopez from 10.20.4.18 port 51305
+2026-10-22T00:17:10Z sshd[2401]: Accepted password for jruiz from 10.20.4.23 port 51420

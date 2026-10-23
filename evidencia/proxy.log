@@ -1,0 +1,7 @@
+2026-10-21T23:49:22Z 10.20.4.5 GET /reports/status 200 user=svc-report
+2026-10-21T23:49:40Z 10.20.4.5 GET /reports/monthly.csv 200 user=svc-report
+2026-10-21T23:50:02Z 10.20.4.5 POST /api/export 403 user=svc-report
+2026-10-21T23:50:19Z 10.20.4.5 GET /static/logo.png 200 user=anonymous
+2026-10-21T23:50:44Z 10.20.4.5 POST /api/export?format=raw 200 user=svc-report
+2026-10-21T23:50:45Z 10.20.4.5 GET /download?id=8472 200 user=svc-report
+2026-10-21T23:51:03Z 10.20.4.5 GET /health 200 user=anonymous

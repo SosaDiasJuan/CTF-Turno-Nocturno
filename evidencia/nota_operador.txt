@@ -1,0 +1,11 @@
+Nota del operador — 21/10
+
+Si el paquete aparece ilegible, no asumas que está cifrado de verdad.
+En este sistema los exportes de emergencia se preparan en Base64 para transporte.
+
+Para el respaldo de emergencia usamos una clave corta que se rota por turno.
+La regla está en el nombre del servicio que tuvo el acceso anómalo: toma las letras
+que quedan después del guion y cuenta sus caracteres. Ese número es la clave XOR
+(en decimal). Antes de aplicar XOR, convertí el contenido Base64 a bytes.
+
+La sesión sospechosa debería coincidir en hora con la descarga del proxy.
